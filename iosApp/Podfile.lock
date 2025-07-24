@@ -1,0 +1,31 @@
+PODS:
+  - KMPObservableViewModelCore (1.0.0-BETA-12):
+    - KMPObservableViewModelCoreObjC (= 1.0.0-BETA-12)
+  - KMPObservableViewModelCoreObjC (1.0.0-BETA-12)
+  - KMPObservableViewModelSwiftUI (1.0.0-BETA-12):
+    - KMPObservableViewModelCore (= 1.0.0-BETA-12)
+  - shared (1.0)
+
+DEPENDENCIES:
+  - KMPObservableViewModelSwiftUI (= 1.0.0-BETA-12)
+  - shared (from `../shared`)
+
+SPEC REPOS:
+  trunk:
+    - KMPObservableViewModelCore
+    - KMPObservableViewModelCoreObjC
+    - KMPObservableViewModelSwiftUI
+
+EXTERNAL SOURCES:
+  shared:
+    :path: "../shared"
+
+SPEC CHECKSUMS:
+  KMPObservableViewModelCore: 1f73e2dcc17e6022acb5036f85307d6b22affc30
+  KMPObservableViewModelCoreObjC: 5c27291bec2bfb458b0806f7f1e78985a990cb45
+  KMPObservableViewModelSwiftUI: 8ab9b75d76a0c86fc27654869b25c0776e2e4566
+  shared: 90ed35de669e9fcb63a61e6b4bb0521eb732cc7a
+
+PODFILE CHECKSUM: 79a1570535c9b1d245817e1bb55369989aceb7e5
+
+COCOAPODS: 1.16.2
